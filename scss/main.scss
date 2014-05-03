@@ -1,0 +1,62 @@
+
+/*
+
+	Sass Minifest
+
+*/
+@import"bourbon/bourbon";
+@import"structure";
+@import"colors";
+@import"typography";
+@import"font-awesome";
+
+@import"defaults";
+
+.logo{
+	width: 100%;
+	max-width: 500px !important;
+	border-radius: 35px;
+	margin: 85px auto 15px auto;
+	display: block;
+}
+
+.page{
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer{
+	margin: 20px auto 0 auto;
+	width: 80%;
+	text-align: center;
+	ul{
+		display: block;
+		padding: 0;
+		margin: 0 auto;
+		li{
+			display: inline-block;
+			margin: 0 15px;
+			
+		}
+	}
+}
+
+
+.col1-3, .col2-3{
+	img{
+		width: 100% !important;
+	}
+}
+
+
+.subText{
+	text-align: center;
+}
+
+.mockup{margin: 45px auto 15px auto;}
+
+
+.social{
+	text-align:center;
+}
+
